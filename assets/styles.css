@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --titulo-fonte: 'Literata', serif;
+    --site-fonte:  'Montserrat', sans-serif;
+    --cor-texto: #0000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: block;
+    align-items: center;
+    background-image: url('./nyc-4854718.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    margin: 0;
+    position: relative;
+    padding-bottom: 1em;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 6rem;
+    width: 100%;
+
+}
+.titulo-todo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0.6rem;
+}
+
+.titulo{
+    font-family: var(--titulo-fonte);
+    font-size: 2.8rem;
+    padding-top: 2rem;
+}
+
+.subtitulo {
+    font-family: var(--titulo-fonte);
+    font-size: 1.0rem;
+    padding-left: 2.5rem;
+}
+
+.lista-cabecalho {
+    display: flex;
+    padding-top: 2rem;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.ancora-cabecalho {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+    padding: 1em 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ancora-cabecalho:hover, .certificado-cabecalho:hover {
+    color: rgb(97, 97, 97);
+}
+
+.certificado-cabecalho {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.3rem;
+    padding: 1.2rem;
+    border: double;
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.texto-base {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+    background-color: rgba(0, 0, 0, 0.43);
+    width: 60%;
+    margin: 3rem auto;
+    color: #e4e4e4;
+    border-radius: 1.2rem;
+}
+
+.titulo-texto {
+    font-size: 3rem;
+    color: #fff;
+    padding-top: 1.5rem;
+}
+
+.subtitulo-texto{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.descricao-text{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.texto-texto {
+    padding: 2rem 8rem 3rem 8rem;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.ancora-corpo {
+    text-decoration: none;
+    border: solid white;
+    padding: 2rem;
+    font-size: 1.2rem;
+    color: white;
+    width: 50%;
+    margin:0 auto;
+}
+
+.ancora-corpo:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.rodape {
+    display: flex;
+    background-color: #333;
+    color: white;
+    padding: 0.8em;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.cep {
+    display: flex;
+    justify-content: left;
+}
+
+.telefone-icon {
+    height: 1em;
+}
+
+.contato-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
